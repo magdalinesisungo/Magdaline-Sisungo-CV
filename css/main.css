@@ -1,0 +1,549 @@
+body{
+    background-color: #191f21;
+    color: #566366;
+    font-family: Robotos;
+}
+
+.hero{
+    background: url(../img/techy.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 17% 0;
+}
+
+.hero h1{
+    color: white;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    display: table;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 60px;
+    padding: 18px 0;
+
+}
+
+.hero a{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    display: table;
+    padding: 10px 37px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+}
+
+/*<END>*/
+
+.nav-cont{
+    height: 70px;
+    border-color: #252e30;
+}
+
+.center{
+    width: 1200px;
+    margin: 0 auto;
+
+
+    padding: 0 20px;
+    overflow: auto;                         
+   
+}
+
+.nav-cont .top-logo{
+    float: left;
+    padding-top: 13px;
+}
+
+.nav-cont ul{
+    float: right;
+    margin: 0;
+    padding: 0;
+  /*  overflow: hidden;*/
+}
+
+.nav-cont ul li{
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-cont ul li a{
+    float: left;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 30px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*.nav-cont .menu{
+    clear: both;
+    max-height: 0px;
+    transition: max
+    ;
+
+
+}*/
+
+/*<END>*/
+
+.info{
+    background: #ffffff;
+    
+}
+
+.info .panel{
+    width: 30%;
+    float: left;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.info .panel:first-child{
+    padding-right: 5%;
+}
+
+.info .panel:last-child{
+    padding-left: 5%;
+}
+
+.info .panel h2{
+    font-size: 18px;
+}
+
+
+.info .panel p{
+    color: #919191;       
+    font-size: 18px;
+    line-height: 1.7em;
+}
+
+
+/*<END>*/
+
+
+.about{
+    background: #f2f2f1;
+}
+
+.about .my-pic{
+    float: left;
+    width: 30%;
+    min-height: 600px;
+    background: url(../img/techy3.jpg) no-repeat center center;
+}
+
+.about .me{
+    float: left;
+    width: 65%;
+    margin-left: 5%;
+    padding-top: 100px;
+}
+@media only screen and (max-width: 900px;) {
+    
+}
+
+@media only screen and (max-width: 900px;) {
+    .hero h1{
+    font-size: 60px;
+   }
+
+        .nav-cont ul{
+            float: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .nav-cont ul li{
+            float: none;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-cont ul li a{
+            float: none;
+            padding: 0px;
+            font-size: 16px;
+            display: block;
+            
+        }
+
+
+.info .panel, .info .panel:first-child, .info .panel:last-child{
+    width: 100;
+    padding: 0px;
+}
+
+}
+
+
+.design{
+    float:left;
+    width: 34.5%;
+   margin-left: 5%;
+   padding-right: 80.5px;
+}
+.mine .design{
+    content: "";
+    display: table;
+    width: 23.4%;
+    float: left;
+   
+}
+
+
+
+
+/*<SKILL>*/
+
+
+
+.skil{
+    background-color: white;
+    width:100%;
+    display: table;
+
+}
+
+.skills{
+    float: left;
+    width: 40%;
+    padding: 40px;
+    padding-left: 90px;
+
+}
+
+
+.skills h3{
+    border: 3px solid green;
+    width: 180px;
+    text-align: center;
+    padding: 15px;
+    color: green;
+
+}
+
+.photo {
+    width: 500px;
+    background-color: silver;
+}
+
+.a_photo{
+    width: 90%;
+    text-align: right;
+    color: white;
+    background-color: green;
+}
+
+.illust {
+    width: 500px;
+    background-color: silver;
+}
+
+.a_illust{
+    width: 80%;
+    text-align: right;
+    color: white;
+    background-color: green;
+
+}
+
+.code {
+    width: 500px;
+    background-color: silver;
+}
+
+.a_code{
+    width: 90%;
+    text-align: right;
+    color: white;
+    background-color: green;
+
+}
+
+.sql {
+    width: 500px;
+    background-color: silver;
+}
+
+.a_sql{
+    width: 70%;
+    text-align: right;
+    color: white;
+    background-color: green;
+
+}
+
+/*<SQL>*/
+
+.resume{
+    width: 40%;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 35%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: silver;
+
+}
+
+.resume h3{
+    border: 3px solid green;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+    color: green;
+    margin: 0 auto;
+
+}
+
+/*<RESUMEM>*/
+
+.page{
+    background-color: white;
+    width:100%;
+    display: table;
+    padding-top: 60px;
+    border-top: 1px solid #ffffff;
+
+}
+
+.educate{
+    float: left;
+    width: 40%;
+    padding: 10px;
+    padding-left: 80px;
+}
+
+.diploma{
+    width: 40%;
+    float: right;
+    padding-right: 120px;
+    padding-top: 50px;
+
+}
+.diploma: dip1{
+    padding-top: 20px;
+    border-top: 1px solid #ffffff;
+}
+.diploma: dip2{
+    border-top: 1px solid #ffffff;
+}
+
+.diploma h5{
+    border: 3px solid green;
+    width: 80px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+    background-color: green;
+    border-top: 1px solid #ffffff;
+ }
+
+/* <DIPLOMA>*/
+
+.expe{
+    background-color: white;
+    width:100%;
+    display: table;
+    padding-top: 40px;
+}
+.work{
+    float: left;
+    width: 40%;
+    padding: 0px;
+    padding-left: 80px;
+    padding-top: 40PX;
+}
+
+.designer{
+    width: 40%;
+    float: right;
+    padding-right: 120px;
+    padding-top: 80PX;
+
+}
+
+.designer h6{
+    font-size: 15px;
+}
+
+.designer h5{
+    border: 3px solid green;
+    width: 80px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+    background-color: green;
+ }
+
+ .resume{
+    width: 45%;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 35%;
+    padding-top: 40px;
+    background-color: silver;
+
+}
+
+.cont{
+    background-color: #fff;
+    background: #ffffff;
+    overflow: auto;
+    padding:20px;
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+
+
+.port{
+padding-top: 40px;
+padding-bottom: 70px;
+text-align: center;
+color: black;
+padding: 8%;
+background-color: #ffffff;
+text-decoration-color: black;
+}
+.port .lorem h2{
+color: black;
+
+}
+.port .lorem p{
+    margin: 20px 70px 40px 50px;
+}
+.port .lorem .portfolios{
+    overflow: hidden;
+}
+.port .lorem .portfolios >div {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 15px;
+}
+.port .lorem .portfolios img{
+    width: 85%;
+   /* margin: 10px;*/
+    padding: 5%;
+    padding-left:10%;
+    padding-right: 10%;  
+    background-color: #ffffff;
+}
+
+
+
+
+.contact-me
+{
+background-color: #252e30;
+overflow: hidden;
+padding-top: 40px;
+padding-bottom: 70px;
+padding-left: 70px;
+}
+.contact-me .info-conts { 
+width: 50%;
+}
+.contact-me h2{ 
+color: #f6feff;
+}
+.contact-me p{
+color: #5d6162;
+}
+.contact-me p strong{
+color:#dae0e1;}
+.contact-me .form-contact{
+width: 50%;
+}
+.contact-me .form-contact label{
+color: #dae0e1;
+margin-bottom: 20px;
+display: block;}
+.contact-me .form-contact input[type="text"]
+{
+background-color:#708287;
+padding: 10px; 
+color: #FFF;
+border: 0;
+width: 70%;
+margin-bottom: 10px;
+}
+
+.contact-me .form-contact textarea
+{
+background-color:#708287;
+padding: 10pxpx; 
+color: #FFF;
+border: 0;
+width: 70%;
+margin-bottom: 15px;
+height: 300px;
+}
+.contact-me .form-contact input[type="submit"]
+{
+background-color: #322b2b;
+color: #d8eaea;
+margin-top: 10px;
+padding: 9px;
+width: 30%;
+}
+
+
+.footer
+{
+text-align: center;
+background-color: #191f21;
+padding: 20px 0;
+color: #5d6162;
+
+}
+
+.footer ul
+{
+padding-left: 0;
+list-style: none;
+margin: 10px 0 10px 0;
+/*float: right;*/
+}
+.footer ul li{
+display: inline-block;
+}
+.footer ul li i:hover  {
+color: #FFF;  
+}
+
+
+.fl-left{float: left;}
+p{
+line-height: 1.5; 
+color:#777;
+text-align: left;
+}
+h2 ,h3 {
+color: #777;
+}
+.my-button
+{
+border: 3px solid #6bec59;
+background: none;
+color: #6bec59;
+padding: 10px 30px;
+font-weight: bold;
+
+}
+
+@media only screen and(max-width: 900px){
+.info .panel ,.info .panel first child, .info .panel {
+width: 100%;
+padding: 0px;
+}
+}
